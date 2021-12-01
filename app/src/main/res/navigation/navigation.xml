@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.chiki.androidtrivia.TitleFragment"
-        android:label="TitleFragment"
+        android:label="Android Trivia"
         tools:layout="@layout/fragment_title">
         <action
             android:id="@+id/action_titleFragment_to_gameFragment"
@@ -21,7 +21,7 @@
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.chiki.androidtrivia.GameFragment"
-        android:label="GameFragment"
+        android:label="Game"
         tools:layout="@layout/fragment_game">
         <action
             android:id="@+id/action_gameFragment_to_gameWonFragment"
@@ -37,7 +37,7 @@
     <fragment
         android:id="@+id/gameWonFragment"
         android:name="com.chiki.androidtrivia.GameWonFragment"
-        android:label="GameWonFragment"
+        android:label="You Won"
         tools:layout="@layout/fragment_game_won">
         <action
             android:id="@+id/action_gameWonFragment_to_gameFragment"
@@ -53,7 +53,7 @@
     <fragment
         android:id="@+id/gameOverFragment"
         android:name="com.chiki.androidtrivia.GameOverFragment"
-        android:label="GameOverFragment"
+        android:label="Game Over"
         tools:layout="@layout/fragment_game_over">
         <action
             android:id="@+id/action_gameOverFragment_to_gameFragment"
@@ -63,11 +63,11 @@
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.chiki.androidtrivia.AboutFragment"
-        android:label="AboutFragment"
+        android:label="About"
         tools:layout="@layout/fragment_about"/>
     <fragment
         android:id="@+id/rulesFragment"
         android:name="com.chiki.androidtrivia.RulesFragment"
-        android:label="RulesFragment"
+        android:label="Rules"
         tools:layout="@layout/fragment_rules"/>
 </navigation>
