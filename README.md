@@ -3,6 +3,8 @@ The Android Trivia application is an application that asks the user trivia quest
 It makes use of the Navigation component within Jetpack to move the user between different screens.
 Each screen is implemented as a Fragment.
 The app navigates using buttons, the Action Bar, and the Navigation Drawer.
+
+
 ![home](https://user-images.githubusercontent.com/86685007/144282533-c5377696-aa39-4b94-96e9-16009f4a5837.png)
 ![drawer_layout](https://user-images.githubusercontent.com/86685007/144282570-9a5ed921-f983-4697-bd2f-bdcd0f562cbe.png)
 ![game](https://user-images.githubusercontent.com/86685007/144282583-8c044d46-d413-46b1-bb78-dae1b3dbdfb7.png)
